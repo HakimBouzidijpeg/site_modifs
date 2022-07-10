@@ -772,6 +772,16 @@ p {
     font-weight: 700;
 }
 
+.cta-hero2 {
+    margin-top: 22px;
+    /* color: #FFFFFF!important; */
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -1148,6 +1158,16 @@ h4 {
         padding-right: 0;
     }
 }
+
+
+@media (max-width: 471px) {
+    .cta-hero2 {
+        
+        font-size: 14px;
+        
+    }
+}
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
